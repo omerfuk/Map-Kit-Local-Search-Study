@@ -16,6 +16,7 @@
 		DEF3CAFB282688F10050081C /* Map_Kit_Local_Search_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CAFA282688F10050081C /* Map_Kit_Local_Search_StudyTests.swift */; };
 		DEF3CB05282688F10050081C /* Map_Kit_Local_Search_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CB04282688F10050081C /* Map_Kit_Local_Search_StudyUITests.swift */; };
 		DEF3CB07282688F10050081C /* Map_Kit_Local_Search_StudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CB06282688F10050081C /* Map_Kit_Local_Search_StudyUITestsLaunchTests.swift */; };
+		DEF3CB1528268B510050081C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF3CB1428268B510050081C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DEF3CB00282688F10050081C /* Map Kit Local Search StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map Kit Local Search StudyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF3CB04282688F10050081C /* Map_Kit_Local_Search_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_Kit_Local_Search_StudyUITests.swift; sourceTree = "<group>"; };
 		DEF3CB06282688F10050081C /* Map_Kit_Local_Search_StudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_Kit_Local_Search_StudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DEF3CB1428268B510050081C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF3CB1528268B510050081C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				DEF3CAF9282688F10050081C /* Map Kit Local Search StudyTests */,
 				DEF3CB03282688F10050081C /* Map Kit Local Search StudyUITests */,
 				DEF3CAE1282688EE0050081C /* Products */,
+				DEF3CB1328268B510050081C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +129,14 @@
 				DEF3CB06282688F10050081C /* Map_Kit_Local_Search_StudyUITestsLaunchTests.swift */,
 			);
 			path = "Map Kit Local Search StudyUITests";
+			sourceTree = "<group>";
+		};
+		DEF3CB1328268B510050081C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3CB1428268B510050081C /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
