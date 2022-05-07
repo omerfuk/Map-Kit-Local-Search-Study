@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEF3CAE4282688EE0050081C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CAE3282688EE0050081C /* AppDelegate.swift */; };
+		DEF3CAE6282688EE0050081C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CAE5282688EE0050081C /* SceneDelegate.swift */; };
+		DEF3CAE8282688EE0050081C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CAE7282688EE0050081C /* ViewController.swift */; };
+		DEF3CAEB282688EE0050081C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF3CAE9282688EE0050081C /* Main.storyboard */; };
+		DEF3CAED282688F10050081C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF3CAEC282688F10050081C /* Assets.xcassets */; };
+		DEF3CAF0282688F10050081C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF3CAEE282688F10050081C /* LaunchScreen.storyboard */; };
+		DEF3CAFB282688F10050081C /* Map_Kit_Local_Search_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CAFA282688F10050081C /* Map_Kit_Local_Search_StudyTests.swift */; };
+		DEF3CB05282688F10050081C /* Map_Kit_Local_Search_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CB04282688F10050081C /* Map_Kit_Local_Search_StudyUITests.swift */; };
+		DEF3CB07282688F10050081C /* Map_Kit_Local_Search_StudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3CB06282688F10050081C /* Map_Kit_Local_Search_StudyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEF3CAF7282688F10050081C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEF3CAD8282688EE0050081C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF3CADF282688EE0050081C;
+			remoteInfo = "Map Kit Local Search Study";
+		};
+		DEF3CB01282688F10050081C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEF3CAD8282688EE0050081C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF3CADF282688EE0050081C;
+			remoteInfo = "Map Kit Local Search Study";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEF3CAE0282688EE0050081C /* Map Kit Local Search Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Map Kit Local Search Study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF3CAE3282688EE0050081C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEF3CAE5282688EE0050081C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEF3CAE7282688EE0050081C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEF3CAEA282688EE0050081C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEF3CAEC282688F10050081C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEF3CAEF282688F10050081C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEF3CAF1282688F10050081C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF3CAF6282688F10050081C /* Map Kit Local Search StudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map Kit Local Search StudyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF3CAFA282688F10050081C /* Map_Kit_Local_Search_StudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_Kit_Local_Search_StudyTests.swift; sourceTree = "<group>"; };
+		DEF3CB00282688F10050081C /* Map Kit Local Search StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Map Kit Local Search StudyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF3CB04282688F10050081C /* Map_Kit_Local_Search_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_Kit_Local_Search_StudyUITests.swift; sourceTree = "<group>"; };
+		DEF3CB06282688F10050081C /* Map_Kit_Local_Search_StudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map_Kit_Local_Search_StudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEF3CADD282688EE0050081C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF3CAF3282688F10050081C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF3CAFD282688F10050081C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEF3CAD7282688EE0050081C = {
+			isa = PBXGroup;
+			children = (
+				DEF3CAE2282688EE0050081C /* Map Kit Local Search Study */,
+				DEF3CAF9282688F10050081C /* Map Kit Local Search StudyTests */,
+				DEF3CB03282688F10050081C /* Map Kit Local Search StudyUITests */,
+				DEF3CAE1282688EE0050081C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEF3CAE1282688EE0050081C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3CAE0282688EE0050081C /* Map Kit Local Search Study.app */,
+				DEF3CAF6282688F10050081C /* Map Kit Local Search StudyTests.xctest */,
+				DEF3CB00282688F10050081C /* Map Kit Local Search StudyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEF3CAE2282688EE0050081C /* Map Kit Local Search Study */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3CAE3282688EE0050081C /* AppDelegate.swift */,
+				DEF3CAE5282688EE0050081C /* SceneDelegate.swift */,
+				DEF3CAE7282688EE0050081C /* ViewController.swift */,
+				DEF3CAE9282688EE0050081C /* Main.storyboard */,
+				DEF3CAEC282688F10050081C /* Assets.xcassets */,
+				DEF3CAEE282688F10050081C /* LaunchScreen.storyboard */,
+				DEF3CAF1282688F10050081C /* Info.plist */,
+			);
+			path = "Map Kit Local Search Study";
+			sourceTree = "<group>";
+		};
+		DEF3CAF9282688F10050081C /* Map Kit Local Search StudyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3CAFA282688F10050081C /* Map_Kit_Local_Search_StudyTests.swift */,
+			);
+			path = "Map Kit Local Search StudyTests";
+			sourceTree = "<group>";
+		};
+		DEF3CB03282688F10050081C /* Map Kit Local Search StudyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3CB04282688F10050081C /* Map_Kit_Local_Search_StudyUITests.swift */,
+				DEF3CB06282688F10050081C /* Map_Kit_Local_Search_StudyUITestsLaunchTests.swift */,
+			);
+			path = "Map Kit Local Search StudyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEF3CADF282688EE0050081C /* Map Kit Local Search Study */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF3CB0A282688F10050081C /* Build configuration list for PBXNativeTarget "Map Kit Local Search Study" */;
+			buildPhases = (
+				DEF3CADC282688EE0050081C /* Sources */,
+				DEF3CADD282688EE0050081C /* Frameworks */,
+				DEF3CADE282688EE0050081C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Map Kit Local Search Study";
+			productName = "Map Kit Local Search Study";
+			productReference = DEF3CAE0282688EE0050081C /* Map Kit Local Search Study.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEF3CAF5282688F10050081C /* Map Kit Local Search StudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF3CB0D282688F10050081C /* Build configuration list for PBXNativeTarget "Map Kit Local Search StudyTests" */;
+			buildPhases = (
+				DEF3CAF2282688F10050081C /* Sources */,
+				DEF3CAF3282688F10050081C /* Frameworks */,
+				DEF3CAF4282688F10050081C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEF3CAF8282688F10050081C /* PBXTargetDependency */,
+			);
+			name = "Map Kit Local Search StudyTests";
+			productName = "Map Kit Local Search StudyTests";
+			productReference = DEF3CAF6282688F10050081C /* Map Kit Local Search StudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEF3CAFF282688F10050081C /* Map Kit Local Search StudyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF3CB10282688F10050081C /* Build configuration list for PBXNativeTarget "Map Kit Local Search StudyUITests" */;
+			buildPhases = (
+				DEF3CAFC282688F10050081C /* Sources */,
+				DEF3CAFD282688F10050081C /* Frameworks */,
+				DEF3CAFE282688F10050081C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEF3CB02282688F10050081C /* PBXTargetDependency */,
+			);
+			name = "Map Kit Local Search StudyUITests";
+			productName = "Map Kit Local Search StudyUITests";
+			productReference = DEF3CB00282688F10050081C /* Map Kit Local Search StudyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEF3CAD8282688EE0050081C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DEF3CADF282688EE0050081C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DEF3CAF5282688F10050081C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DEF3CADF282688EE0050081C;
+					};
+					DEF3CAFF282688F10050081C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DEF3CADF282688EE0050081C;
+					};
+				};
+			};
+			buildConfigurationList = DEF3CADB282688EE0050081C /* Build configuration list for PBXProject "Map Kit Local Search Study" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEF3CAD7282688EE0050081C;
+			productRefGroup = DEF3CAE1282688EE0050081C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEF3CADF282688EE0050081C /* Map Kit Local Search Study */,
+				DEF3CAF5282688F10050081C /* Map Kit Local Search StudyTests */,
+				DEF3CAFF282688F10050081C /* Map Kit Local Search StudyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEF3CADE282688EE0050081C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF3CAF0282688F10050081C /* LaunchScreen.storyboard in Resources */,
+				DEF3CAED282688F10050081C /* Assets.xcassets in Resources */,
+				DEF3CAEB282688EE0050081C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF3CAF4282688F10050081C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF3CAFE282688F10050081C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEF3CADC282688EE0050081C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF3CAE8282688EE0050081C /* ViewController.swift in Sources */,
+				DEF3CAE4282688EE0050081C /* AppDelegate.swift in Sources */,
+				DEF3CAE6282688EE0050081C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF3CAF2282688F10050081C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF3CAFB282688F10050081C /* Map_Kit_Local_Search_StudyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF3CAFC282688F10050081C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF3CB07282688F10050081C /* Map_Kit_Local_Search_StudyUITestsLaunchTests.swift in Sources */,
+				DEF3CB05282688F10050081C /* Map_Kit_Local_Search_StudyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEF3CAF8282688F10050081C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEF3CADF282688EE0050081C /* Map Kit Local Search Study */;
+			targetProxy = DEF3CAF7282688F10050081C /* PBXContainerItemProxy */;
+		};
+		DEF3CB02282688F10050081C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEF3CADF282688EE0050081C /* Map Kit Local Search Study */;
+			targetProxy = DEF3CB01282688F10050081C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEF3CAE9282688EE0050081C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF3CAEA282688EE0050081C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEF3CAEE282688F10050081C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF3CAEF282688F10050081C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEF3CB08282688F10050081C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEF3CB09282688F10050081C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEF3CB0B282688F10050081C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Map Kit Local Search Study/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omerKilicaslan.Map-Kit-Local-Search-Study";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEF3CB0C282688F10050081C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Map Kit Local Search Study/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omerKilicaslan.Map-Kit-Local-Search-Study";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEF3CB0E282688F10050081C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omerKilicaslan.Map-Kit-Local-Search-StudyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map Kit Local Search Study.app/Map Kit Local Search Study";
+			};
+			name = Debug;
+		};
+		DEF3CB0F282688F10050081C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omerKilicaslan.Map-Kit-Local-Search-StudyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Map Kit Local Search Study.app/Map Kit Local Search Study";
+			};
+			name = Release;
+		};
+		DEF3CB11282688F10050081C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omerKilicaslan.Map-Kit-Local-Search-StudyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Map Kit Local Search Study";
+			};
+			name = Debug;
+		};
+		DEF3CB12282688F10050081C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7CRNJ953YN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omerKilicaslan.Map-Kit-Local-Search-StudyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Map Kit Local Search Study";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEF3CADB282688EE0050081C /* Build configuration list for PBXProject "Map Kit Local Search Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF3CB08282688F10050081C /* Debug */,
+				DEF3CB09282688F10050081C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF3CB0A282688F10050081C /* Build configuration list for PBXNativeTarget "Map Kit Local Search Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF3CB0B282688F10050081C /* Debug */,
+				DEF3CB0C282688F10050081C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF3CB0D282688F10050081C /* Build configuration list for PBXNativeTarget "Map Kit Local Search StudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF3CB0E282688F10050081C /* Debug */,
+				DEF3CB0F282688F10050081C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF3CB10282688F10050081C /* Build configuration list for PBXNativeTarget "Map Kit Local Search StudyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF3CB11282688F10050081C /* Debug */,
+				DEF3CB12282688F10050081C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEF3CAD8282688EE0050081C /* Project object */;
+}
